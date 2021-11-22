@@ -15,6 +15,10 @@ It's up to the user to schedule the pipeline in whatever is correct for their so
 
 ## Development
 
+**NOTE**
+
+When making changes to the extension file, you must run/build it locally in VS Code for the TypeScript to be converted to JavaScript in the bin. Your changes will not take effect unless this happens.
+
 ### Prerequisites
 - npm
 

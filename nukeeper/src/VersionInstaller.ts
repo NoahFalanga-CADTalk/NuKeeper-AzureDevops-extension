@@ -82,7 +82,7 @@ async function acquireNuKeeper(version: string): Promise<string> {
     //
     version = toolLib.cleanVersion(version);
     const fileName = 'nukeeper.' + version + '.nupkg';
-    let downloadUrl = 'https://api.nuget.org/v3-flatcontainer/nukeeper/' + version + '/' + fileName;
+    let downloadUrl = 'https://solutionsx.blob.core.windows.net/buildserverpreqs/NuKeeper/' + fileName;
 
     let downloadPath: string = await toolLib.downloadTool(downloadUrl);
     let unpackedPath = downloadPath + ".unpacked";

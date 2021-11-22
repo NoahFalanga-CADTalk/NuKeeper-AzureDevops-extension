@@ -1,16 +1,16 @@
 {
     "manifestVersion": 1,
-    "id": "nukeeper",
-    "name": "NuKeeper",
-    "version": "0.4.41",
-    "publisher": "nukeeper",
-    "public": true,
+    "id": "CADTalk",
+    "name": "NuKeeper-CADTalk",
+    "version": "0.4.46",
+    "publisher": "CADTalk",
+    "public": false,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Automagically update nuget packages in .NET projects.",
+    "description": "Automagically update nuget packages in .NET projects. Curated for CADTalk.",
     "categories": [
         "Azure Pipelines"
     ],
